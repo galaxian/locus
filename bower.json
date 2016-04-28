@@ -1,0 +1,35 @@
+{
+  "name": "locus",
+  "description": "A smart info collector app for locations that a person interests",
+  "main": "index.js",
+  "authors": [
+    "Satya J",
+    "Achint"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "location",
+    "personalization",
+    "repo"
+  ],
+  "homepage": "https://github.com/galaxian/locus",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "1.11.1",
+    "bootstrap": "3.3.6",
+    "angular": "1.4.8",
+    "bootstrap-material-design": "^0.5.9",
+    "components-font-awesome": "^4.6.1"
+  },
+  "resolutions": {
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.3.6"
+  }
+}

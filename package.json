@@ -1,0 +1,26 @@
+{
+  "name": "locus",
+  "version": "1.0.0",
+  "description": "A smart info collector app for locations that a person interests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart":"npm install",
+    "postinstall":"bower install",
+    "start":"node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github/galaxian/locus.git"
+  },
+  "keywords": [
+    "location",
+    "personalization",
+    "repo"
+  ],
+  "author": "Satya J, Achint",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
+}
